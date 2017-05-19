@@ -67,11 +67,17 @@
 		padding-bottom: 5px;
 		padding-left: 17px;
 	}
-
+.slider-button-left{
+	top: 50px;
+}
+.slider-button-right{
+	@extend .slider-button-left;
+}
 .first-step{
 	width: 33%;
 	padding-left: 21px;
 	padding-right: 21px;
+	padding-bottom: 15px;
 }
 .first-step__title{
 	padding-bottom: 20px;

@@ -59,7 +59,7 @@
 		display: block;;
 		margin-bottom: 20px;;
 		width: 47px;;
-		margin-top: 180px;
+		margin-top: 220px;
 		padding: {
 			top: 5px;
 			bottom: 5px;
@@ -98,6 +98,7 @@
 }
 .holiday-cattegory{
 	padding-bottom: 120px;
+	text-align: center;
 }
 .holiday-cattegory__title{
 	padding-bottom: 30px;
@@ -106,7 +107,7 @@
 	margin-bottom: 40px;
 }
 .holiday-cattegory__search-form{
-	padding-left: 35%;
+	display: inline-flex;
 }
 .holiday-cattegory__search-block{
 	float: left;

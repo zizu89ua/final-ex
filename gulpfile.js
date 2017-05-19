@@ -108,7 +108,7 @@ gulp.task('default', function() {
     gulp.watch('src/*.html', ['pages']);
     gulp.watch('src/js/*.js', ['js']); 
     gulp.watch('src/js/vendor/*.js', ['js_v']);
+    gulp.watch('src/css/**/*.css', ['concat']);
     gulp.watch('src/sass/**/*.scss', ['sass']);
-    gulp.watch('src/css/**/*.css'), ['concat'];
     gulp.watch('src/images/**/*.*', ['images']);
 });
