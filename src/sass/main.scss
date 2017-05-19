@@ -7,6 +7,7 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+
 .grid-block{
 	padding: 5px;
 	width: 65%;
@@ -129,6 +130,10 @@ header{
   height: 55px;
   width: 30px;
   cursor: pointer;
+  &:hover{
+  	background-color: #000;
+  	opacity: 0.2;
+  }
 }
 
 .slider-button-right {
@@ -139,6 +144,10 @@ header{
   height: 55px;
   width: 30px;
   cursor: pointer;
+  &:hover{
+  	background-color: #000;
+  	opacity: 0.2;
+  }
 }
 
 .first-step__title{
@@ -259,6 +268,7 @@ header{
 	font-size: 14px;
 	color: #ff4e50;
 	font-family: $main-font;
+	clear: both;
 	outline: none;
 	display: block;
 	margin: 0 auto;
@@ -269,6 +279,7 @@ header{
 		right: 36px;
 	}
 }
+
 .holiday-cattegory{
 	padding-bottom: 38px;
 }
@@ -291,8 +302,7 @@ input::-webkit-input-placeholder {
 		
 
 	}
-@-moz-document url-prefix() 
-{
+
 	.for-moz-style{
 		font-family: Roboto-light;
 		font-size: 18px;
@@ -301,7 +311,6 @@ input::-webkit-input-placeholder {
 		text-align: center;
 		margin-bottom: 17px;
 	} 
-} 
 .holiday-cattegory__search-form{
 	text-align: center;
 }
@@ -379,4 +388,3 @@ footer{
 		font-size: 10px;
 		padding-bottom: 10px;
 	}
-

@@ -28,7 +28,7 @@
 	padding-top: 138px;
 	width: 48%;
 	margin: 0 auto;
-	line-height: 60px;
+	
 
 }
 .center-block__midel-title{
@@ -41,7 +41,7 @@
 	
 	}
 .center-block__link{
-		
+		margin-top: 50px;
 		height: 45px;
 		
 	}
@@ -112,6 +112,7 @@
 .holiday-cattegory__search-block{
 	float: left;
 	margin-right: 10px;
+	margin-bottom: 0;
 	width: 230px;
 }
 .holiday-cattegory__search-button{
@@ -126,13 +127,14 @@
 }
 .partners-block{
 	padding-bottom: 70px;
-	width: 90%;
+	width: 880px;
 }
 .partners-block__title{
 	padding-bottom: 20px;
 }
+
 .partner-info{
-	display: inline-grid;
+	float: left;
 	margin: {
 		top: 15px;
 		left: 10px;
