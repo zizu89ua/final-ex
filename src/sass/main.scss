@@ -123,6 +123,7 @@ header{
   background-image: url(../img/array-left.png);
   height: 55px;
   width: 30px;
+  cursor: pointer;
 }
 
 .slider-button-right {
@@ -132,6 +133,7 @@ header{
   background-image: url(../img/array-right.png);
   height: 55px;
   width: 30px;
+  cursor: pointer;
 }
 
 .first-step__title{
@@ -268,6 +270,7 @@ header{
 .holiday-cattegory__title{
 	@extend .partners-block__title;
 }
+
 .holiday-cattegory__search-title{
 		font-family: Roboto-light;
 		font-size: 18px;
@@ -283,6 +286,17 @@ input::-webkit-input-placeholder {
 		
 
 	}
+@-moz-document url-prefix() 
+{
+	.for-moz-style{
+		font-family: Roboto-light;
+		font-size: 18px;
+		color: #696969;
+		display: block;
+		text-align: center;
+		margin-bottom: 17px;
+	} 
+} 
 .holiday-cattegory__search-form{
 	text-align: center;
 }
